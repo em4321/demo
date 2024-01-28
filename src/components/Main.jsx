@@ -86,8 +86,14 @@ class Main extends Component {
             <strong>BSc (Hons) degree subject: grade - University</strong>
           </p>
           <ul>
-            <li>Achieved a high 2:1 for my dissertation</li>
-            <li>Created a quantitative experiment</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>
+              Phasellus quis erat id enim pulvinar mattis non vitae risus.
+            </li>
+            <li>
+              Fusce nisi leo, vulputate elementum condimentum sed, dignissim et
+              orci.
+            </li>
           </ul>
           <p>
             <strong>A levels - School</strong>
