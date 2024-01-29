@@ -2,9 +2,10 @@ import React, { Component } from "react";
 
 class Button extends Component {
   render() {
+    const { href, text } = this.props;
     return (
-      <a className={this.props.class} href={this.props.href}>
-        <button>{this.props.text}</button>
+      <a href={href}>
+        <button>{text}</button>
       </a>
     );
   }

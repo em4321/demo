@@ -6,18 +6,18 @@ class Header extends Component {
     return (
       <header>
         <nav>
-          <Links text={"About Me"} href="./index.html" linkClass="About" />
+          <Links text={"About Me"} href="./index.html" class="About" />
           <Links
             text={"Work Experience"}
             href="#work-experience"
             linkClass="Work"
           />
-          <Links text={"Education"} href="#education" linkClass="Education" />
-          <Links text={"Key Skills"} href="#key-skills" linkClass="Skills" />
+          <Links text={"Education"} href="#education" class="Education" />
+          <Links text={"Key Skills"} href="#key-skills" class="Skills" />
           <Links
             text={"Achievements"}
             href="#achievements"
-            linkClass="Achievements"
+            class="Achievements"
           />
         </nav>
       </header>

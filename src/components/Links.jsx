@@ -2,11 +2,10 @@ import React, { Component } from "react";
 
 class Links extends Component {
   render() {
+    const { href, text } = this.props;
     return (
       <>
-        <a className={this.props.class} href={this.props.href}>
-          {this.props.text}
-        </a>
+        <a href={href}>{text}</a>
       </>
     );
   }
