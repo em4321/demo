@@ -1,25 +1,15 @@
 import React, { Component } from "react";
-import Links from "./Links";
+import Button from "./Button";
+import Input from "./Input";
 
 class Header extends Component {
+  state = {};
   render() {
     return (
       <header>
-        <nav>
-          <Links text={"About Me"} href="./index.html" class="About" />
-          <Links
-            text={"Work Experience"}
-            href="#work-experience"
-            linkClass="Work"
-          />
-          <Links text={"Education"} href="#education" class="Education" />
-          <Links text={"Key Skills"} href="#key-skills" class="Skills" />
-          <Links
-            text={"Achievements"}
-            href="#achievements"
-            class="Achievements"
-          />
-        </nav>
+        <Input placeholder={"Search City"} id="searchBar" />
+        <Button text={"Search"} id="searchButton" />
+        <Button text={"Use Location"} id="getLocation" />
       </header>
     );
   }
