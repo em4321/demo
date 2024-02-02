@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import axios from "axios";
 import "./App.css";
 import Interface from "./components/Interface";
-import Spinner from "./components/Spinner";
 
 class App extends Component {
   state = {};
@@ -19,10 +18,6 @@ class App extends Component {
   render() {
     console.log(this.state);
 
-    // if (this.state.weather) {
-    //   return <p>we have data</p>;
-    // }
-    // return <Spinner />;
     return (
       <>
         <Header />
