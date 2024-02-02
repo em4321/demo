@@ -7,9 +7,9 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <Input placeholder={"Search City"} id="searchBar" />
-        <Button text={"Search"} id="searchButton" />
-        <Button text={"Use Location"} id="getLocation" />
+        <Input id="searchBar" />
+        <Button text={"Search"} className="searchButton" />
+        <Button text={"Use Location"} className="getLocation" />
       </header>
     );
   }
